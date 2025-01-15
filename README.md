@@ -2,11 +2,8 @@
 
 [My Notes](notes.md)
 
-A collaborative decision-making engine where users can log in, enter what they are struggling to decide on, propose options, receive AI-generated suggestions, and vote on their preferences. The top options are then displayed in real-time, helping groups quickly come to a decision after seeing the best choices.
+A collaborative decision-making engine where users can log in, enter what they are struggling to decide on, propose options, receive AI-generated suggestions, and vote on their preferences of all of the options each individual user entered. The top options are then displayed in real-time on each user's screen, helping groups quickly come to a decision after seeing the best choices.
 
-
-> [!NOTE]
->  If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
 
 ## 🚀 Specification Deliverable
 
@@ -15,15 +12,15 @@ A collaborative decision-making engine where users can log in, enter what they a
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Have you ever struggled to make a group decision? Whether it's deciding what to eat, what movie to watch, or what to do that night, this Decision Engine simplifies the process. Users input their own ideas on their own, receive AI-generated suggestions for options they never even thought of, and collaboratively vote on a combined list using an interactive point system to reach a conclusion. 
 
 ### Design
 
@@ -40,20 +37,24 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Secure login and session management
+- Ability to enter the question to decide
+- Option input and AI-generated suggestions
+- Real-time synchronization of options across devices
+- Voting system with weighted points (3, 2, 1)
+- Totals from all users displayed in realtime
+- Results and user entered lists stored
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Uses correct HTML structure for application. Four HTML pages. A page for login, entering options, voting, and for results.
+- **CSS** - Responsive, visually appealing design that adapts to various screen sizes.
+- **React** - Provides login, display for entering ideas, displays AI generated ideas, applying votes, display total users votes, and use of React for navigation.
+- **Service** - REST API endpoints could be used for login, option submission, voting, and result retrieval. OpenAI API will be used to generate options related to what users entered as their option ideas.
+- **DB/Login** - Database will store user sessions, decision topics, entered lists, and result retrieval. It will login users and keep sessions between authorized users. Authentication ensures only authorized users participate.
+- **WebSocket** - Enables real-time updates for synchronization and vote tallying.
 
 ## 🚀 AWS deliverable
 
