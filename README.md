@@ -23,14 +23,11 @@ Have you ever struggled to make a group decision? Whether it's deciding what to 
 
 ### Design
 
-<img src="page1.png" alt="Example Image" width="400">
-![Design image](Page%204.png)
-![Design image](Page%205.png)
-![Design image](Page%206.png)
-![Design image](Page%207.png)
-
-![Design image](placeholder.png)
-
+<img src="page1.png" alt="Example Image" width="500">
+<img src="page2.png" alt="Example Image" width="500">
+<img src="page3.png" alt="Example Image" width="500">
+<img src="page4.png" alt="Example Image" width="500">
+<img src="page5.png" alt="Example Image" width="500">
 
 ### Sequence Diagram
 - User logs in.
