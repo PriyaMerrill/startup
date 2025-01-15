@@ -1,4 +1,4 @@
-s# Decision Engine
+# Decision Engine
 
 [My Notes](notes.md)
 
