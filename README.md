@@ -23,7 +23,7 @@ Have you ever struggled to make a group decision? Whether it's deciding what to 
 
 ### Design
 
-![Design image](Page%203.png)
+![Design image](page1.png)
 ![Design image](Page%204.png)
 ![Design image](Page%205.png)
 ![Design image](Page%206.png)
