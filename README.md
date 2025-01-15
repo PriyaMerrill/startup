@@ -40,9 +40,35 @@ Have you ever struggled to make a group decision? Whether it's deciding what to 
 
 ```mermaid
 sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
+    actor User
+    actor AI
+    participant Backend
+    participant Database
+
+    User->>Backend: Login
+    Backend->>Database: Authenticate User
+    Database-->>Backend: Success/Failure
+    Backend-->>User: Login Confirmation
+
+    User->>Backend: Create/Join Decision Session
+    Backend-->>User: Session Created/Joined
+
+    User->>Backend: Submit Options
+    Backend->>Database: Save Options
+    Backend-->>User: Confirm Options Saved
+    Backend-->>All Users: Broadcast Combined Options
+
+    Backend->>AI: Request Suggestions
+    AI-->>Backend: Return Additional Options
+    Backend-->>All Users: Broadcast Updated Options
+
+    User->>Backend: Allocate Points (3, 2, 1)
+    Backend->>Database: Save Votes
+    Backend->>All Users: Broadcast Real-time Results
+
+    Backend->>Database: Tally Results
+    Database-->>Backend: Final Results
+    Backend-->>All Users: Display Final Results
 ```
 
 ### Key features
