@@ -52,7 +52,7 @@ I am going to use the required technologies in the following ways.
 - **CSS** - Responsive, visually appealing design that adapts to various screen sizes.
 - **React** - Provides login, display for entering ideas, displays AI generated ideas, applying votes, display total users votes, and use of React for navigation.
 - **Service** - REST API endpoints could be used for login, option submission, voting, and result retrieval. OpenAI API will be used to generate options related to what users entered as their option ideas.
-- **DB/Login** - Database will store user sessions, decision topics, entered lists, and result retrieval. It will login users and keep sessions between authorized users. Authentication ensures only authorized users participate.
+- **DB/Login** - Database will store user sessions, decision topics, entered lists, and result retrieval. It will login users and keep sessions between authorized users. Authentication ensures only authorized users participate. Potentially may create a login system using JSON Web Tokens (JWT)
 - **WebSocket** - Enables real-time updates for synchronization and vote tallying.
 
 ## 🚀 AWS deliverable
