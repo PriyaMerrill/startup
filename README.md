@@ -29,6 +29,9 @@ Have you ever struggled to make a group decision? Whether it's deciding what to 
 ![Design image](Page%206.png)
 ![Design image](Page%207.png)
 
+![Design image](placeholder.png)
+
+
 Sequence Diagram
 -User logs in.
 -User creates or joins a decision-making session.
