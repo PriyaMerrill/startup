@@ -33,12 +33,12 @@ Have you ever struggled to make a group decision? Whether it's deciding what to 
 
 
 ### Sequence Diagram
--User logs in.
--User creates or joins a decision-making session.
--Users input options; backend combines lists and broadcasts them to all devices.
--AI (OpenAI API) suggests additional options.
--Users allocate points (3, 2, 1) to their top choices.
--Results are tallied and displayed in real time.
+- User logs in.
+- User creates or joins a decision-making session.
+- Users input options; backend combines lists and broadcasts them to all devices.
+- AI (OpenAI API) suggests additional options.
+- Users allocate points (3, 2, 1) to their top choices.
+- Results are tallied and displayed in real time.
 
 
 ```mermaid
