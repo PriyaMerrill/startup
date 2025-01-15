@@ -1,4 +1,4 @@
-# Decision Engine
+s# Decision Engine
 
 [My Notes](notes.md)
 
@@ -23,9 +23,20 @@ Have you ever struggled to make a group decision? Whether it's deciding what to 
 
 ### Design
 
-![Design image](placeholder.png)
+![Design image](Page%203.png)
+![Design image](Page%204.png)
+![Design image](Page%205.png)
+![Design image](Page%206.png)
+![Design image](Page%207.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sequence Diagram
+-User logs in.
+-User creates or joins a decision-making session.
+-Users input options; backend combines lists and broadcasts them to all devices.
+-AI (OpenAI API) suggests additional options.
+-Users allocate points (3, 2, 1) to their top choices.
+-Results are tallied and displayed in real time.
+
 
 ```mermaid
 sequenceDiagram
