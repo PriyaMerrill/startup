@@ -48,7 +48,7 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Uses correct HTML structure for application. Four HTML pages. A page for login, entering options, voting, and for results.
+- **HTML** - Uses correct HTML structure for application. Five HTML pages. A page for login, a page for creating a session or joining a session, entering options, voting, and for results.
 - **CSS** - Responsive, visually appealing design that adapts to various screen sizes.
 - **React** - Provides login, display for entering ideas, displays AI generated ideas, applying votes, display total users votes, and use of React for navigation.
 - **Service** - REST API endpoints could be used for login, option submission, voting, and result retrieval. OpenAI API will be used to generate options related to what users entered as their option ideas.
