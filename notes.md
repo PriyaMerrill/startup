@@ -24,19 +24,22 @@ real -> No problems worked just like it said in the [instruction](https://github
 ## HTML
 
 Learned a lot here.
-Common layout elements:
-header: Contains the page title, navigation, or branding.
-nav: Holds links for site navigation.
-main: The primary content of the page.
-footer: Contains copyright info or additional links.
 
+Common layout elements:
+- header: Contains the page title, navigation, or branding.
+- nav: Holds links for site navigation.
+- main: The primary content of the page.
+- footer: Contains copyright info or additional links.
+
+Form:
 - form is used for user input
 
-table is structured with:
-thead: Contains table headers (<th>).
-tbody: Holds the main data rows (<tr> with <td> cells).
-th makes column headers bold by default.
+Tables:
+- thead: Contains table headers (<th>).
+- tbody: Holds the main data rows (<tr> with <td> cells).
+- th makes column headers bold by default.
 
+Links
 - a href=page.html creates links to other pages.
 
 
