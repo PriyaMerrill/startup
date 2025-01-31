@@ -15,7 +15,7 @@
         <main>
             <h2>Create or Join a Session</h2>
             <h3>Create a New Session</h3>
-            <button id="make-session">Create Session</button>
+            <button onclick="location.href='options.html';">Create Session</button>
             <p>Session Code: <span id = "session-code">[Generated Code will appear]</span></p>
             <form action="options.html" method="POST">
                 <input type="hidden" id="session-name" name = "session-name">
@@ -27,7 +27,7 @@
             <form action="options.html" method="POST">
                 <label for="join-code">Enter Session Code:</label>
                 <input type="text" id="join-code" name="join-code" placeholder="Enter Session Code" required>
-                <button type="submit">Join Session</button>
+                <button onclick="location.href='options.html';">Join Session</button>
             </form>
         </main>
     </body>
