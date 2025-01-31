@@ -25,60 +25,25 @@ real -> No problems worked just like it said in the [instruction](https://github
 
 Learned a lot here.
 Common layout elements:
-<header>: Contains the page title, navigation, or branding.
-<nav>: Holds links for site navigation.
-<main>: The primary content of the page.
-<footer>: Contains copyright info or additional links.
+header: Contains the page title, navigation, or branding.
+nav: Holds links for site navigation.
+main: The primary content of the page.
+footer: Contains copyright info or additional links.
 
-- <form></form> is used for user input
+- form is used for user input
 
-<table> is structured with:
-<thead>: Contains table headers (<th>).
-<tbody>: Holds the main data rows (<tr> with <td> cells).
-<th> makes column headers bold by default.
+table is structured with:
+thead: Contains table headers (<th>).
+tbody: Holds the main data rows (<tr> with <td> cells).
+th makes column headers bold by default.
 
-- <a href="page.html"> creates links to other pages.
+- a href=page.html creates links to other pages.
 
 
 ## CSS
 
 
-```html
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand">
-            <img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
-            Calmer
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="play.html">Play</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Logout</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-```
 
-I also used SVG to make the icon and logo for the app. This turned out to be a piece of cake.
-
-```html
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" fill="#0066aa" rx="10" ry="10" />
-  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="72" font-family="Arial" fill="white">C</text>
-</svg>
-```
 
 ## React Part 1: Routing
 
@@ -90,22 +55,3 @@ This was a lot of fun to see it all come together. I had to keep remembering to 
 
 Handling the toggling of the checkboxes was particularly interesting.
 
-```jsx
-<div className="input-group sound-button-container">
-  {calmSoundTypes.map((sound, index) => (
-    <div key={index} className="form-check form-switch">
-      <input
-        className="form-check-input"
-        type="checkbox"
-        value={sound}
-        id={sound}
-        onChange={() => togglePlay(sound)}
-        checked={selectedSounds.includes(sound)}
-      ></input>
-      <label className="form-check-label" htmlFor={sound}>
-        {sound}
-      </label>
-    </div>
-  ))}
-</div>
-```
