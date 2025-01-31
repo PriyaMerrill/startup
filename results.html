@@ -10,30 +10,44 @@
         <h1>Decision Engine</h1>
         <nav>
             <p>temporary back page</p>
-            <a href="session.html">Back to Sessions</a>
+            <a href="vote.html">Back to Vote</a>
         </nav>
     </header>
     <main>
         <h2>Final Vote Results</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Option 1</th>
-                    <th>points ex: 15</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Option 2</td>
-                    <td>points ex: 9</td>
-                </tr>
-                <tr>
-                    <td>Option 3</td>
-                    <td>points ex: 2</td>
-                </tr>
-            </tbody>
-        </table>
+        <section id="live-results">
+            <h3>Live Results</h3>
+            <p>Real-time results will appear here...</p>
+        </section>
+        <section id="datab-placeholder">
+            <h3>Stored Vote Data</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Option</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading database data...</td>
+                        <td>...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <p>*Vote data will be retrieved from the database here*</p>
         <button onclick="window.location.href='index.html'">Logout</button>
     </main>
 </body>
+<footer>
+    <p>Decision Engine &copy; 2025</p>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="session.html">Sessions</a> |
+        <a href="options.html">Options</a> |
+        <a href="vote.html">Vote</a> |
+        <a href="results.html">Results</a>
+    </nav>
+</footer>
 </html>
