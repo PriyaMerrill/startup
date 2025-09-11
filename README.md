@@ -30,7 +30,7 @@ Ever started trying to be better only to lose motivation when life gets busy 3 d
 
 ### Design
 
-![Design image](sketch.pdf)
+![Design image](designSketch.png)
 
 
 ```mermaid
