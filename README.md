@@ -1,4 +1,4 @@
-# HabitFlow *will change*
+# HabitFlow *name will probably change*
 
 [My Notes](notes.md)
 
