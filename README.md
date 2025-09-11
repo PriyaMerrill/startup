@@ -33,12 +33,7 @@ Ever started trying to be better only to lose motivation when life gets busy 3 d
 ![Design image](designSketch.png)
 
 
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+
 
 ### Key features
 
