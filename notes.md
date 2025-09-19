@@ -103,6 +103,36 @@ Key Attributes
 
 ## CSS
 
+CSS Basics
+- CSS uses selectors to target HTML elements
+- Format: `selector { property: value; }`
+- Apply styles to make HTML look like a design mockup
+
+Key Properties
+- `color` - Text color
+- `background-color` - Element background
+- `font-size`, `font-weight` - Text styling
+- `margin`, `padding` - Spacing around/inside elements
+- `border`, `border-radius` - Element borders
+- `width`, `height` - Element dimensions
+- `text-align` - Text alignment (left, center, right)
+
+CSS Selectors
+- `element` - Targets all elements of that type
+- `.class` - Targets elements with specific class
+- `#id` - Targets element with specific ID
+
+Development Process
+1. Fork CodePen and examine HTML structure
+2. Study target design carefully
+3. Style one element at a time
+4. Use browser dev tools to debug
+5. Compare result to target design
+
+Box Model
+- Content → Padding → Border → Margin (inside to outside)
+- Controls spacing and layout of elements
+
 
 ## React Part 1: Routing
 
