@@ -87,6 +87,19 @@ Tips
 - Color inputs use hex codes (#ff0000 = red)
 - Optgroups organize dropdown options into categories
 
+Basic Media Tags
+- `<img src="url" alt="description">` - Images
+- `<audio src="url" controls>` - Audio with controls
+- `<video src="url" controls>` - Video with controls
+- `<svg>` - Vector graphics in HTML
+- `<canvas>` - 2D drawing (needs JavaScript)
+
+Key Attributes
+- `alt` - Image description (required)
+- `controls` - Show play/pause buttons
+- `src` - File path (relative or absolute)
+- `crossorigin="anonymous"` - For external domains
+
 
 ## CSS
 
