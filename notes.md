@@ -23,12 +23,12 @@ Server Information
 
 ## Caddy
 
-#What is Caddy
+What is Caddy
 - Web server that automatically handles HTTPS certificates
 - Replaces Apache/Nginx for simple web hosting
 - Automatically gets SSL certificates from Let's Encrypt
 
-#Key Configuration (Caddyfile)
+Key Configuration (Caddyfile)
 - Configuration file: `/etc/caddy/Caddyfile`
 - Edit with: `sudo nano /etc/caddy/Caddyfile`
 - Replace `:80` with your domain name for HTTPS
@@ -38,29 +38,29 @@ Server Information
 ## HTML
 
 
-#Basic Structure
+Basic Structure
 - HTML uses tags with angle brackets: `<tagname>content</tagname>`
 - Most tags have opening and closing versions
 - Self-closing tags like `<img>` and `<br>` don't need closing tags
 
-#Key Elements
+Key Elements
 - `<nav>` - Navigation section for links
 - `<aside>` - Sidebar content
 - `<header>` - Top section of page
 - `<footer>` - Bottom section of page
 - `<section>` - Main content areas
 
-#Links and Images
+Links and Images
 - Links: `<a href="URL">Link text</a>`
 - Images: `<img src="URL" width="200" alt="description">`
 - Always include `alt` attribute for accessibility
 
-#Lists and Tables
+Lists and Tables
 - Unordered lists: `<ul>` with `<li>` items
 - Tables: `<table>` with `<tr>` (rows) and `<td>` (cells)
 - Add new table rows by copying the `<tr>` structure
 
-#Display Tips
+Display Tips
 - Use `<br>` for line breaks
 - Put elements in `<div>` to make them stack vertically
 - `width` attribute controls image size
