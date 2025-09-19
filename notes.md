@@ -88,6 +88,27 @@ Tips
 - Color inputs use hex codes (#ff0000 = red)
 - Optgroups organize dropdown options into categories
 
+Common Input Types
+- `<input type="text" placeholder="hint text">` - Text input with placeholder
+- `<input type="checkbox">` - Checkboxes for multiple selections
+- `<input type="radio" name="group">` - Radio buttons (same name = grouped)
+- `<input type="color" value="#ff0000">` - Color picker with default color
+
+Select Dropdowns
+- `<select>` with `<option>` elements for choices
+- `<optgroup label="category">` groups related options together
+
+Key Attributes
+- `placeholder` - hint text in input fields
+- `value` - sets default values (hex codes for colors)
+- `name` - groups radio buttons together
+- `label` - always pair with inputs for accessibility
+
+Tips
+- Radio buttons with same `name` act as one group
+- Color inputs use hex codes (#ff0000 = red)
+- Optgroups organize dropdown options into categories
+
 
 ## CSS
 
