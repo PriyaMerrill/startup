@@ -1,9 +1,8 @@
-# Your startup name here
+# Doable
 
 [My Notes](notes.md)
 
-A brief description of the application here. 
-*Description here*
+A task planning app that turns everything you have going on into a realistic plan for your week and each day.
 
 > [!NOTE]
 > This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
@@ -13,7 +12,8 @@ A brief description of the application here.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Doable is a task planning app that takes everything you have going on and turns it into a realistic plan for your week and each day. Your week can have things you need to finish like an essay due Thursday and also things you want to do a certain number of times a week like running three days or reading twice. Each day you can choose what you want to pull from your week and focus on that day. This app can also look at your calendar so you know if what you picked will actually fit in your day, and shared lists let roommates or project groups work from the same list together. Doable helps you keep track of what you need to get done while also making time for the things you want to do more of.
+
 
 ### Design
 
@@ -21,32 +21,39 @@ Doable has five screens: login, inbox, week, day, and group. The sketches below 
 
 **Login and Week**
 
-![Login screen and week view](login-week.jpg)
+<img src="login-week.jpg" alt="Login screen and week view" width="450">
 
 **Day and Group**
 
-![Day view and shared group list](day-group.jpg)
+<img src="day-group.jpg" alt="Day view and shared group list" width="450">
 
 **Inbox**
 
-![Inbox view with the add-to-week and add-to-day popups](inbox.jpg)
+<img src="inbox.jpg" alt="Inbox view with the add-to-week and add-to-day popups" width="450">
+
+
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- **One place for everything**: add all of the tasks, assignments, errands, and goals you want to keep track of.
+- **Two kinds of week items** — deadline tasks you complete once and weekly goals you want to complete a certain number of times.
+- **Weekly goal progress** — see progress like 2 of 3 done throughout the week.
+- **Build your own day** — choose what you want to pull from your week into today.
+- **Know if it fits** — compare what you planned for the day with the free time you have on your Google Calendar.
+- **Shared group lists** — roommates, classmates, or project groups can work from the same list.
+- **Live updates** — changes to shared lists appear for everyone right away.
+
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Provides the basic structure for the application with views for login, inbox, week, day, and group lists. Forms will be used for logging in and adding tasks, with navigation between the different parts of the app. Tasks and weekly goals will be organized into lists.
+- **CSS** - Styles the application and makes it work well on both phones and computers. It will use a simple color scheme, good spacing, and clear organization so lists are easy to read. Animations can show when tasks are completed, weekly goal progress changes, or an item is moved from the week into today.
+- **React** - Creates the interactive parts of the application using components for things like login, tasks, weekly goals, the week list, day list, and group lists. React will switch between the different views without reloading the page. It will also update the page immediately when users complete tasks, make progress on a weekly goal, or move something from their week into their day.
+- **Service** - Provides backend endpoints for creating, editing, deleting, and completing tasks and weekly goals. It will also handle moving items from the week into the day, creating and joining groups, and accessing shared group lists. The service will support registering, logging in, and logging out users. It will also call the [Google Calendar API](https://developers.google.com/calendar/api/v3/reference/events/list) to get a user's calendar events so Doable can compare their available time with what they have planned for the day.
+- **DB/Login** - MongoDB will store user accounts, tasks, weekly goals and their progress, shared group lists, and which users belong to each group. Users will need to be signed in to access their information and shared groups.
+- **WebSocket** - Shared group lists will update in real time. When someone adds, edits, or completes a task, everyone currently looking at that group list will see the change without needing to refresh the page.
 
 ## 🚀 Specification Deliverable
 
@@ -55,12 +62,12 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Git commit requirement)
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology including your 3rd party API and use of WebSocket
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] I completed the prerequisites for this deliverable (Git commit requirement)- went through all of the pages on masteryls.
+- [x] **Proper use of Markdown** - Used headings, bullet lists, bold text, links, and image references throughout this file.
+- [x] **A concise and compelling elevator pitch** - Wrote a paragraph explaining how Doable turns everything you have going on into a realistic weekly and daily plan.
+- [x] **Description of key features** - Listed seven features including the two kinds of week items, weekly goal progress, and shared group lists.
+- [x] **Description of how you will use each technology** - Described HTML, CSS, React, Service, DB/Login, and WebSocket, including the Google Calendar API and how WebSocket keeps shared lists in sync.
+- [x] **One or more rough sketches** - Added three images showing the login, week, day, group, and inbox screens.
 
 ## 🚀 AWS deliverable
 
