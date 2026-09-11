@@ -17,16 +17,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Design
 
-![Design image](placeholder.png)
+Doable has five screens: login, inbox, week, day, and group. The sketches below put two screens on each page.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Login and Week**
 
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+![Login screen and week view](login-week.jpg)
+
+**Day and Group**
+
+![Day view and shared group list](day-group.jpg)
+
+**Inbox**
+
+![Inbox view with the add-to-week and add-to-day popups](inbox.jpg)
 
 ### Key features
 
