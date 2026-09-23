@@ -73,24 +73,24 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Rented EC2 server** - I did not complete this part of the deliverable.
-- [ ] **Leased domain name** - I did not complete this part of the deliverable.
-- [ ] **Server accessible** from my domain: [https://yourdomainnamehere.click](https://yourdomainnamehere.click) - I did not complete this part of the deliverable.
+- [x] **Rented EC2 server** - Rented an AWS EC2 instance to host my application in production.
+- [x] **Leased domain name** - Leased `doablenow.click` through AWS Route 53 and pointed it at my EC2 instance.
+- [x] **Server accessible** from my domain: from my domain: [https://doablenow.click](https://doablenow.click) - Confirmed the server responds and Simon is deployed and reachable at my domain.
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **HTML pages** - Created index (login), week, today, groups, and inbox pages, each representing a main component of the application.
+- [x] **Proper HTML element usage** - Used header, nav, main, footer, and section semantically on every page instead of generic divs.
+- [x] **Links** - Nav bar with links to all five pages appears on every page.
+- [x] **Text** - Headings, descriptions, and labels throughout all pages.
+- [x] **3rd party API placeholder** - Calendar table on today.html stands in for the Google Calendar API data.
+- [x] **Images** - An image included on every page (login, week, today, groups, inbox).
+- [x] **Login placeholder** - Login and create account forms on index.html, plus a placeholder showing the logged in username.
+- [x] **DB data placeholder** - Tasks and weekly goals rendered on week.html/today.html, shared roommate list on groups.html.
+- [x] **WebSocket placeholder** - Live Activity section on groups.html showing mocked real-time updates from other users.
 
 ## 🚀 CSS deliverable
 
