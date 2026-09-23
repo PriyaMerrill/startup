@@ -30,6 +30,9 @@ Interesting things I have learned about AWS
 - **<progress value ='x' max='y'>** HTML element for showing partial completion toward a goal, cooler for progress indicating
 - **<section>** groups a distinct and self contained chunk of content that has its own heading. Im using it to separate conceptually different groupings even if they're both lists
 - This phase is structure and placeholders only, just visible placements for where stuff will go
+- **'<table>' is for table style data** rows and columns where each column is something consistent across rows
+- **'<thead>' and '<tbody>'** split a table into its header rows and its data rows. keeps the label row different from content that is not a part of the table
+- **<caption>** describes what the table is for. shows above the table
 
 ## React
 

@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Doable</title>
+        <title>Doable-Today</title>
     </head>
 
     <body>
@@ -17,5 +17,51 @@
                 <a href="index.html">Logout</a>
             </nav>
         </header>
+
+        <main>
+            <h1>Today</h1>
+            <section>
+                <h2>Your Calendar (Google Calendar API)</h2>
+                <table>
+                    <caption>Today's calendar events</caption>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Event</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>Work meeting</td>
+                        </tr>
+                        <tr>
+                            <td>2:00 PM</td>
+                            <td>Class</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Today's Tasks</h2>
+                <ul>
+                    <li>
+                        <input type="checkbox" id ="today-task-1" />
+                        <label for="today-task-1">Finish essay draft</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="today-task-2"/>
+                        <label for="today-task-2">Run 30 minutes</label>
+                    </li>
+                </ul>
+                <p>Planned: 3 hours &mdash; Free time today: 5 hours. This fits</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Priya Merrill</p>
+            <a href="https://github.com/PriyaMerrill/startup">GitHub Repository</a>
+        </footer>
     </body>
 </html>
