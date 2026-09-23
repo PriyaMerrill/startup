@@ -19,7 +19,17 @@ Interesting things I have learned about AWS
 
 ## HTML
 
-Interesting things I have learned about HTML
+- **Every page has the same basic skeleton**: 
+    - '<!DOCTYPE html>` tells the browser to use modern HTML5 rules
+    - `<head>` holds metadata- nothing visible
+    - `<body>` holds everything the user sees
+- **HTML comments are '<!-- like this -->'**
+- **semantic landmarks over divs**: <header> is top intro content, <nav> is links around, <main> is page's content, <footer> is metadata about the page
+- **label for ="id" matched to an <input id="id"> conects the two** clicking the label focuses the input and screen readers announce the field's purpose
+- **'<ul>' vs '<ol>'** using <ul> cause any item could be done first, its just a collection
+- **<progress value ='x' max='y'>** HTML element for showing partial completion toward a goal, cooler for progress indicating
+- **<section>** groups a distinct and self contained chunk of content that has its own heading. Im using it to separate conceptually different groupings even if they're both lists
+- This phase is structure and placeholders only, just visible placements for where stuff will go
 
 ## React
 

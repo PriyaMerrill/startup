@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Doable</title>
+        <title>Doable-Week</title>
     </head>
 
     <body>
@@ -17,5 +17,49 @@
                 <a href="index.html">Logout</a>
             </nav>
         </header>
+
+        <main>
+            <h1>This Week</h1>
+            <section>
+                <h2>Tasks</h2>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="task-1"/>
+                        <label for="task-1">Finish essay draft</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task-2" />
+                        <label for="task-2">Take marketing exam</label>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Weekly Goals</h2>
+                <ul>
+                    <li>
+                        <label for="goal-1">Run 3 times this week</label>
+                        <progress id="goal-1" value="2" max="3"></progress>
+                    </li>
+                    <li>
+                        <label for="goal-2">Read twice this week</label>
+                        <progress id="goal-2" value="1" max="2"></progress>
+                    </li>
+                </ul>
+            </section>
+
+            <form>
+                <h2>Add to Week</h2>
+                <label for ="new-item">Item</label>
+                <input type="text" id="new-item" name="item" required />
+                <button type="submit">Add</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Priya Merrill</p>
+            <a href="https://github.com/PriyaMerrill/startup">GitHub Repository</a>
+        </footer>
+
     </body>
 </html>
