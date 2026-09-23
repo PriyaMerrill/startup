@@ -33,6 +33,9 @@ Interesting things I have learned about AWS
 - **'<table>' is for table style data** rows and columns where each column is something consistent across rows
 - **'<thead>' and '<tbody>'** split a table into its header rows and its data rows. keeps the label row different from content that is not a part of the table
 - **<caption>** describes what the table is for. shows above the table
+- **<img src=> alt=""** src points to the image file. I found it eaiest to have it be in the project folder. alt is text that shows up if the image doesn't load. 
+- **Sizing images in HTML with no CSS** set just the width attribute on img
+- I will change how I deal with images when we get to CSS phase
 
 ## React
 
