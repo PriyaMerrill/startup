@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <!--head is metadata about the page with no visible content-->
     <head>
@@ -19,5 +20,33 @@
                 <a href="index.html">Login</a>
             </nav>
         </header>
+
+        <main>
+            <h1>Doable</h1>
+            <h3>Turn everything you have going on into a realistic plan</h3>
+            <form>
+                <h2>Login</h2>
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" name="username" required />
+
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="password" required />
+
+                <button type="submit">Sign In</button>
+            </form>
+
+            <form>
+                <h2>Create Account</h2>
+                <label for="create-username">Username</label>
+                <input type="text" id="create-username" name="username" required />
+
+                <label for="create-password">Password</label>
+                <input type="password" id="create-password" name="password" required />
+
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <p>Welcome, <span id="username-display">[username]</span></p>
+        </main>
     </body>
 </html>
