@@ -36,6 +36,9 @@ Interesting things I have learned about AWS
 - **<img src=> alt=""** src points to the image file. I found it eaiest to have it be in the project folder. alt is text that shows up if the image doesn't load. 
 - **Sizing images in HTML with no CSS** set just the width attribute on img
 - I will change how I deal with images when we get to CSS phase
+- **span** a basic inline container. I used it to group text I will go back to later. There is nothing specifc to tag right now. generic for just one line
+- **button type** button vs submit. submit triggers submissions. button does nothing on its own.
+- **forms** any place the user types something in and adds it uses the same <form> + <label> + <input> + submit<button> pattern
 
 ## React
 
