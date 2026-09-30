@@ -32,3 +32,7 @@ body {
 .list-group-item:hover {
     background-color: #efe9f8;
 }
+
+.activity-item {
+    border-left: 4px solid #ff7a59;
+}
