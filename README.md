@@ -96,13 +96,13 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **Visually appealing colors and layout. No overflowing elements.** - I did not complete this part of the deliverable.
-- [ ] **Use of a CSS framework** - I did not complete this part of the deliverable.
-- [ ] **All visual elements styled using CSS** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I did not complete this part of the deliverable.
-- [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **Visually appealing colors and layout. No overflowing elements.** - Used a purple, coral, and mint color scheme with a dark navbar and footer on every page. Images use `img-fluid` and tables use `table-responsive` so nothing overflows
+- [x] **Use of a CSS framework** - Used Bootstrap 5 (loaded from a CDN) for the navbar, grid, cards, list groups, buttons, forms, table, and alert.
+- [x] **All visual elements styled using CSS** - Every page has the Bootstrap navbar and footer, with styled forms, lists, progress bars, the calendar table, and the live activity feed.
+- [x] **Responsive to window resizing using flexbox and/or grid display** - Used the Bootstrap grid (`row` / `col-md-6`), `d-flex`, `flex-wrap`, and a flex column on `body` to keep the footer at the bottom. The navbar collapses into a hamburger menu on small screens.
+- [x] **Use of a imported font** - Imported Poppins from Google Fonts and applied it to the whole site in `styles.css`.
+- [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - Element (`body`, `h1, h2`), class (`.goal-progress`, `.activity-item`), ID (`#username-display`), and pseudo (`.card:hover`, `.list-group-item:hover`) selectors in `styles.css`.
 
 ## 🚀 React part 1: Routing deliverable
 
