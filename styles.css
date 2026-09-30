@@ -1,5 +1,5 @@
 body {
-    font-family: 'Rockwell', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #faf8fd;
 }
 
@@ -14,4 +14,10 @@ h1, h2 {
 
 .card:hover {
     box-shadow: 0 4px 12px rgba(91, 58, 140, 0.2);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
