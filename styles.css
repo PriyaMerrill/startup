@@ -1,0 +1,17 @@
+body {
+    font-family: 'Rockwell', sans-serif;
+    background-color: #faf8fd;
+}
+
+h1, h2 {
+    color: #5b3a8c;
+}
+
+#username-display {
+    font-weight: 600;
+    color: #ff7a59;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(91, 58, 140, 0.2);
+}
