@@ -21,3 +21,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.goal-progress {
+    display: block;
+    width: 100%;
+    height: 1rem;
+    accent-color: #3cb88f;
+}
+
+.list-group-item:hover {
+    background-color: #efe9f8;
+}
