@@ -40,6 +40,14 @@ Interesting things I have learned about AWS
 - **button type** button vs submit. submit triggers submissions. button does nothing on its own.
 - **forms** any place the user types something in and adds it uses the same <form> + <label> + <input> + submit<button> pattern
 
+## CSS
+- Bootstrap's <link> only resets the base elements. Components (navbar, cards, buttons) need classes.
+- Your own styles.css link goes after Bootstrap's so your rules win.
+- A <link> tag belongs in the <head> and never in a .css file, and the script tag goes before </body>.
+- Bootstrap's grid is flexbox, and col-md-6 means "half width from tablet size up, stacked on phones".
+- An unclosed </div> won't always show an error, but it can quietly break layouts.
+- An imported font has to be linked in the HTML, or font-family just falls back to the next option.
+
 ## React
 
 Interesting things I have learned about React
