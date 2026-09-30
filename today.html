@@ -5,66 +5,94 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>Doable-Today</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="styles.css" />
     </head>
 
     <body>
         <header>
-            <nav>
-                <a href="week.html">Week</a>
-                <a href="today.html">Today</a>
-                <a href="groups.html">Groups</a>
-                <a href="inbox.html">Inbox</a>
-                <a href="index.html">Logout</a>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="index.html">Doable</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                        aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navLinks">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" href="today.html">Today</a></li>
+                            <li class="nav-item"><a class="nav-link" href="week.html">Week</a></li>
+                            <li class="nav-item"><a class="nav-link" href="groups.html">Groups</a></li>
+                            <li class="nav-item"><a class="nav-link" href="inbox.html">Inbox</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
-        <main>
-            <h1>Today</h1>
-            <img src="today-image.png" alt="Illustration of a person climbing a ladder made of completed tasks while working on a laptop" width="400"/>
-            <section>
-                <h2>Your Calendar (Google Calendar API)</h2>
-                <table>
-                    <caption>Today's calendar events</caption>
-                    <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Event</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>9:00 AM</td>
-                            <td>Work meeting</td>
-                        </tr>
-                        <tr>
-                            <td>2:00 PM</td>
-                            <td>Class</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+        <main class="container py-4">
+            <h1 class="text-center mb-4">Today</h1>
+            <div class="text-center mb-4">
+                <img class="img-fluid rounded shadow-sm" src="today-image.png" alt="Illustration of a person climbing a ladder made of completed tasks while working on a laptop" width="400" />
+            </div>
 
-            <section>
-                <h2>Today's Tasks</h2>
-                <ul>
-                    <li>
-                        <input type="checkbox" id ="today-task-1" />
-                        <label for="today-task-1">Finish essay draft</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="today-task-2"/>
-                        <label for="today-task-2">Run 30 minutes</label>
-                    </li>
-                </ul>
-                <p>Planned: 3 hours &mdash; Free time today: 5 hours. This fits</p>
-            </section>
+            <div class="row g-4">
+                <section class="col-md-6">
+                    <h2>Your Calendar (Google Calendar API)</h2>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered bg-white">
+                            <caption>Today's calendar events</caption>
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Event</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>9:00 AM</td>
+                                    <td>Work meeting</td>
+                                </tr>
+                                <tr>
+                                    <td>2:00 PM</td>
+                                    <td>Class</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="col-md-6">
+                    <h2>Today's Tasks</h2>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item">
+                            <input class="form-check-input me-2" type="checkbox" id="today-task-1" />
+                            <label class="form-check-label" for="today-task-1">Finish essay draft</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-2" type="checkbox" id="today-task-2" />
+                            <label class="form-check-label" for="today-task-2">Run 30 minutes</label>
+                        </li>
+                    </ul>
+                    <div class="alert alert-success" role="alert">
+                        Planned: 3 hours &mdash; Free time today: 5 hours. This fits
+                    </div>
+                </section>
+            </div>
         </main>
 
-        <footer>
-            <p>Priya Merrill</p>
-            <a href="https://github.com/PriyaMerrill/startup">GitHub Repository</a>
+        <footer class="bg-dark text-light text-center py-3 mt-auto">
+            <p class="mb-1">Priya Merrill</p>
+            <a class="link-light" href="https://github.com/PriyaMerrill/startup">GitHub Repository</a>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
