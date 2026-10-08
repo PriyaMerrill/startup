@@ -49,5 +49,15 @@ Interesting things I have learned about AWS
 - An imported font has to be linked in the HTML, or font-family just falls back to the next option.
 
 ## React
+- The big idea of this is that right now the browser loads a different .html file for each page
+- With React there is just one html and JavaScript swaps which compeonent shows up based on the url
+- each page becomes a function that returns JSX
+- JSX is HTML written inside JavaScript
 
-Interesting things I have learned about React
+**steps I plan to take**
+- Clone simon css and deploy
+- set up Vite in startup
+- Reorganize everything into Vite layout
+- Stub the components and the router
+- Move the real HTML into each component
+- Deploy
