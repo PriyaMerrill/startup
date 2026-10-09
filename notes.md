@@ -57,7 +57,11 @@ Interesting things I have learned about AWS
 **steps I plan to take**
 - Clone simon css and deploy
 - set up Vite in startup
+- Redo Bootstrap
+- Make React work
+- Make the App component
 - Reorganize everything into Vite layout
 - Stub the components and the router
-- Move the real HTML into each component
+- Move the real HTML into each component; router
+- Convert each view
 - Deploy
