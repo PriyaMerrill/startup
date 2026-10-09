@@ -108,10 +108,10 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **Bundled using Vite** - Installed vite as a dev dependency with dev, build, and preview scripts in package.json. Reorganized the pages into the Vite layout with a single index html and jsx at thr root. Replaced deployFiles.sh with deployReact.sh to run npm run build and copy the bundle to the server.
+- [x] **Components** - Created five components in src/ with one folder for each page. I moved the <main> section from each old html into its compenent, editing the syntax to be in line with jsx. The shared nav and footer are in app.jsx and written once. app.css imports Bootstrap's css and js from the npm package in app.jsx.
+- [x] **Router** - Added react router in app.jsx BrowserRouter wraps the app, the nav links are NavLinks and Routes maps the pages to their components. There is a NotFound component. Pages switch without a full reload.
 
 ## 🚀 React part 2: Reactivity deliverable
 
