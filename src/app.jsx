@@ -21,9 +21,27 @@ export default function App() {
                             <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navLinks' aria-controls='navLinks' aria-expanded='false' aria-label='Toggle nav'>
                                 <span className='navbar-toggler-icon'></span>
                             </button>
+                            <div className='collapse navbar-collapse' id='navLinks'>
+                                <ul className='navbar-nav ms-auto'>
+                                    <li className='nav-item'><NavLink className='nav-link' to='today'>Today</NavLink></li>
+                                    <li className='nav-item'><NavLink className='nav-link' to='week'>Week</NavLink></li>
+                                    <li className='nav-item'><NavLink className='nav-link' to='groups'>Groups</NavLink></li>
+                                    <li className='nav-item'><NavLink className='nav-link' to='inbox'>Inbox</NavLink></li>
+                                    <li className='nav-item'><NavLink className='nav-link' to=''>Login</NavLink></li>
+                                </ul>
+                            </div>
                         </div>
                     </nav>
                 </header>
+
+                <Routes>
+                    <Route path="/" element={<Login />} exact />
+                    <Route path="/today" element={<Today />} />
+                    <Route path="/week" element={<Week />} />
+                    <Route path="/groups" element={<Groups />} />
+                    <Route path="/inbox" element={<Inbox />} />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
             </div>
         </BrowserRouter>
     );
