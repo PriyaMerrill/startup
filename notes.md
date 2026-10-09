@@ -65,3 +65,21 @@ Interesting things I have learned about AWS
 - Move the real HTML into each component; router
 - Convert each view
 - Deploy
+
+- React turns the site into a one page app with one index.html and JavaScript fills it in
+- Every page is just a component swapped into that one div
+- index.jsx is the bridge; it finds the root dive and renders App into it
+- Vite is what builds everything
+- Vite is a dev dependency cause it never ships to the browser
+- React and Bootstrap are regular dependencies because they do ship to the browser
+- node modules and dist go in gitignore cause they arent soure code
+- JSX is html inside JavaScript
+- There are some renames when swithing html to jsx
+- React only controls what's inside the root div
+- Files in public/ are copied and then served from the site roo
+- Bootstrap is imported from node modules in app jsx instead of a CDN, Vite bundles it together and that version is pinned in package.json
+- Component names have to be capatilized
+- NavLink adds the active class on its own
+- A * route catches any unknown URL
+- The server now needs the built bundle and not raw files so deploy script changes
+- Porting is doing one page at a time
