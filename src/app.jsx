@@ -42,7 +42,17 @@ export default function App() {
                     <Route path="/inbox" element={<Inbox />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
+
+                <footer className='bg-dark text-light text-center py-3 mt-auto'>
+                    <p className='mb-1'>Priya Merrill</p>
+                    <a className='link-light' href="https://github.com/PriyaMerrill/startup">GitHub Repository</a>
+                </footer>
+
             </div>
         </BrowserRouter>
     );
+}
+
+function NotFound() {
+    return <main className="container py-4 text-center">404: That page does not exist.</main>;
 }
